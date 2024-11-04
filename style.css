@@ -1,0 +1,112 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+@font-face {
+  font-family: Example;
+  src: url("./font/RetroGaming.otf");
+}
+body {
+  height: 100vh;
+  font-family: Example;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background: linear-gradient(to top left, #4228b4, #6fb5d5);
+}
+
+.playerbox {
+  display: flex;
+  margin-top: 7rem;
+  border-radius: 1rem;
+  background-color: rgb(161, 184, 208);
+  box-shadow: rgba(30, 30, 30, 0.645);
+}
+
+/* player score box */
+.player {
+  width: 25rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.paraplayer {
+  padding: 5%;
+  font-size: x-large;
+}
+.h1player {
+  padding: 5%;
+  font-size: xx-large;
+}
+/* -------------------------- */
+
+/* current score box */
+.currentbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  width: 50%;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.25);
+  background-color: rgb(101, 154, 210);
+  /* height:75px; */
+}
+.paracurrent {
+  padding: 5%;
+  font-size: x-large;
+}
+.h1current {
+  padding: 5%;
+  font-size: xx-large;
+}
+/* ------------------------------ */
+
+/* center part for buttons */
+.centerpart {
+  display: flex;
+  flex-direction: column;
+}
+.newgame {
+  width: 150px;
+  height: 30px;
+  font-family: Example;
+  border-radius: 1rem;
+  border: none;
+  margin: 30px;
+}
+.paranowplaying {
+  padding-top: 30%;
+  padding-bottom: 10%;
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+}
+.spanplayer {
+  display: flex;
+  justify-content: center;
+}
+.image {
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 50px;
+  /* content: url("./image/dice-six-faces-four.png"); */
+}
+.rolldice {
+  width: 150px;
+  height: 30px;
+  border: none;
+  font-family: Example;
+  border-radius: 1rem;
+  margin: 30px;
+}
+.hold {
+  width: 150px;
+  height: 30px;
+  border: none;
+  font-family: Example;
+  border-radius: 1rem;
+  margin: 30px;
+}
