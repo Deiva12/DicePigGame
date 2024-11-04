@@ -1,5 +1,5 @@
 "use strict";
-const target = 10 ;
+const target = 100 ;
 let totalplayer1 = 0;
 let totalplayer2 = 0;
 let current1 = 0;
